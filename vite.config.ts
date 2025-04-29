@@ -10,7 +10,7 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
-      input: path.resolve(__dirname, 'public/index.html'), // index.html 위치 명시
+      input: path.resolve(__dirname, 'index.html'), // index.html 위치 명시
     },
   },
 });
